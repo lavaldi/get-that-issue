@@ -116,6 +116,11 @@ const projects = [
     name: "React Navigation",
     q:
       'repo:react-navigation/react-navigation is:issue is:open label:"good first issue"'
+  },
+  {
+    search: "hacktoberfest",
+    name: "Hacktoberfest",
+    q: 'is:issue is:open label:"good first issue" label:"hacktoberfest"'
   }
 ];
 export default projects;
